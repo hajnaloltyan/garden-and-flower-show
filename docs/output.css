@@ -540,6 +540,11 @@ video {
   font-weight: 700;
 }
 
+.text-cyan-400 {
+  --tw-text-opacity: 1;
+  color: rgb(34 211 238 / var(--tw-text-opacity));
+}
+
 .underline {
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;

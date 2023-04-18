@@ -8,13 +8,13 @@
     <script src="https://kit.fontawesome.com/d3c3e6e26d.js" crossorigin="anonymous" defer></script>
     <title>Flower and Garden Show</title>
   </head>
-  <body>
-    <header>
+  <body class="min-w-[375px]">
+    <header class="px-5">
       <!-- Top Header -->
 
-      <div>
-        <nav>
-          <ul>
+      <div class="hidden md:block">
+        <nav class="h-[35px] bg-zinc-800 text-neutral-300 px-[10%] flex justify-end content-center flex-wrap">
+          <ul class="flex gap-5">
             <li>
               <a href="https://www.facebook.com">
                 <i class="fa-brands fa-facebook"></i>
@@ -44,21 +44,21 @@
 
       <!-- Mobile Header -->
 
-      <div>
+      <div class="md:hidden flex justify-between content-center py-3 flex-wrap">
         <a href="#home">
-          <img src="" alt="">
+          <img src="./images/hajnaloltyan-logo.png" alt="Logo" class="h-[35px] block">
         </a>
 
         <nav>
           <a href="#menu">
-            <i class="fa-solid fa-bars"></i>
+            <i class="fa-solid fa-bars fa-xl"></i>
           </a>
         </nav>
       </div>
 
       <!-- Desktop Header -->
 
-      <div>
+      <div class="hidden md:block">
         <a href="#home">
           <img src="" alt="">
         </a>
@@ -97,22 +97,28 @@
       </div>
     </header>
 
-    <main>
+    <main class="px-4 py-3">
       <!-- Hero Section -->
 
-      <section>
-        <h2>Hello, Sharing world!</h2>
+      <section class="pt-[50px] pb-[100px]">
+        <h2 class="text-3xl text-emerald-800 mb-2">
+          "Hello, Sharing world!"
+        </h2>
 
-        <h1>Garden and Flower Show 2023</h1>
+        <h1 class="text-6xl font-extrabold text-emerald-800 mb-6">
+          Garden and Flower Show 2023
+        </h1>
 
-        <div>
-          <p>
-            A joyful celebration....
-          </p>
-        </div>
+        <p class="text border-4 p-4 mb-4">
+          A joyful celebration of amazing garden designs, gorgeous floral displays and exclusive shopping deals.
+        </p>
 
-        <h2>2023.05.15. ~ 05.20.</h2>
-        <h3>Such Place and place</h3>
+        <h2 class="text-4xl font-extrabold mb-2">
+          2023.05.15. ~ 05.20.
+        </h2>
+        <h3 class="text-2xl">
+          @ Such Place and place
+        </h3>
       </section>
 
       <!-- Main Program Section -->

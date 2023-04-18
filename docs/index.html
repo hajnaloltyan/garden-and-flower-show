@@ -4,11 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="output.css">
     <script src="https://kit.fontawesome.com/d3c3e6e26d.js" crossorigin="anonymous" defer></script>
     <title>Flower and Garden Show</title>
   </head>
-  <body class="min-w-[375px]">
+  <body class="font-sans min-w-[375px]">
     <header class="px-5">
       <!-- Top Header -->
 
@@ -39,20 +42,6 @@
               <a href="#logout">Logout</a>
             </li>
           </ul>
-        </nav>
-      </div>
-
-      <!-- Mobile Header -->
-
-      <div class="md:hidden flex justify-between content-center py-3 flex-wrap">
-        <a href="#home">
-          <img src="./images/hajnaloltyan-logo.png" alt="Logo" class="h-[35px] block">
-        </a>
-
-        <nav>
-          <a href="#menu">
-            <i class="fa-solid fa-bars fa-xl"></i>
-          </a>
         </nav>
       </div>
 
@@ -97,10 +86,24 @@
       </div>
     </header>
 
-    <main class="px-4 py-3">
+    <main>
       <!-- Hero Section -->
 
-      <section class="pt-[50px] pb-[100px]">
+      <section class="bg-hero-image bg-center bg-no-repeat bg-cover bg-blend-overlay bg-zinc-400 pb-[100px] px-4 py-3">
+         <!-- Mobile Header -->
+
+        <div class="md:hidden flex justify-between content-center flex-wrap pb-[50px]">
+          <a href="#home">
+            <img src="./images/hajnaloltyan-logo.png" alt="Logo" class="h-[35px] block">
+          </a>
+
+          <nav>
+            <a href="#menu">
+              <i class="fa-solid fa-bars fa-xl"></i>
+            </a>
+          </nav>
+        </div>
+
         <h2 class="text-3xl text-emerald-800 mb-2">
           "Hello, Sharing world!"
         </h2>
@@ -109,7 +112,7 @@
           Garden and Flower Show 2023
         </h1>
 
-        <p class="text border-4 p-4 mb-4">
+        <p class="text border-4 border-zinc-500 p-4 mb-4">
           A joyful celebration of amazing garden designs, gorgeous floral displays and exclusive shopping deals.
         </p>
 
@@ -123,8 +126,10 @@
 
       <!-- Main Program Section -->
 
-      <section>
-        <h3>Main Program</h3>
+      <section class="h-[500px] bg-main-image bg-center bg-no-repeat bg-cover bg-blend-overlay bg-zinc-800 text-zinc-100 px-4 py-8">
+        <h3 class="text-3xl font-bold text-center">
+          Main Program
+        </h3>
 
         <a href="#program">See the whole program</a>
       </section>

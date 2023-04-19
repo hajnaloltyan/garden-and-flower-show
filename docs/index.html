@@ -90,7 +90,7 @@
     <main>
       <!-- Hero Section -->
 
-      <section class="bg-hero-image bg-center bg-no-repeat bg-cover bg-blend-overlay bg-zinc-400 pb-[100px] px-4 py-3">
+      <section class="bg-hero-image bg-center bg-no-repeat bg-cover bg-blend-overlay bg-stone-400 pb-[100px] px-4 py-3">
          <!-- Mobile Header -->
 
         <div class="md:hidden flex justify-between content-center flex-wrap pb-[50px]">
@@ -155,37 +155,50 @@
         </h3>
 
         <div class="flex flex-col gap-10 justify-evenly py-8" id="garden-card"></div>
+
+        <button class="border-2 w-full py-4 md:hidden">
+          MORE
+
+          <i class="fa-solid fa-angle-down fa-lg text-rose-700 ml-4"></i>
+        </button>
       </section>
     </main>
 
     <footer>
       <!-- Partner Section -->
 
-      <section>
-        <h3>Partner</h3>
+      <section class="px-4 py-[50px] text-zinc-100 bg-zinc-700">
+        <h3 class="text-3xl font-bold text-center mb-6">
+          Partner
 
-        <ul>
-          <li><a href="/"><img src="" alt=""></a></li>
-          <li><a href="/"><img src="" alt=""></a></li>
-          <li><a href="/"><img src="" alt=""></a></li>
-          <li><a href="/"><img src="" alt=""></a></li>
-          <li><a href="/"><img src="" alt=""></a></li>
+          <div class="border-b-2 border-rose-700 w-[60px] pt-4 mx-auto"></div>
+        </h3>
+
+        <ul class="flex justify-center gap-4 flex-wrap">
+          <li><a href="https://google.com"><img src="./images/google.svg" alt="Google" width="150px"></a></li>
+          <li><a href="https://airbnb.com"><img src="./images/airbnb.svg" alt="Airbnb" width="150px"></a></li>
+          <li><a href="https://mozilla.com"><img src="./images/mozilla-1.svg" alt="Mozilla" width="150px"></a></li>
+          <li><a href="https://quora.com"><img src="./images/quora-black.svg" alt="Quora" width="150px"></a></li>
         </ul>
       </section>
 
       <!-- Bottom  Footer -->
 
-      <section>
-        <a href="/">
-          <img src="" alt="">
+      <section class="p-[50px] flex justify-between">
+        <a href="#home">
+          <img src="./images/hajnaloltyan-logo.png" alt="Logo" width="50px">
         </a>
 
         <div>
-          <h5>
-            2023 &copy; Garden and Flower Show  -  All rights reserved.
+          <h5 class="text-wrap text-center">
+            2023 &copy; Garden and Flower Show
           </h5>
 
-          <p>
+          <h5 class="text-center">
+            All rights reserved.
+          </h5>
+
+          <p class="hidden md:block">
             This project is protected by the MIT License, which allows for free and open use, modification, and distribution of the software.
           </p>
         </div>

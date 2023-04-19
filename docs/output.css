@@ -595,6 +595,26 @@ video {
   width: 90%;
 }
 
+.w-3 {
+  width: 0.75rem;
+}
+
+.w-\[30px\] {
+  width: 30px;
+}
+
+.w-\[30\%\] {
+  width: 30%;
+}
+
+.w-\[20\%\] {
+  width: 20%;
+}
+
+.w-\[10\%\] {
+  width: 10%;
+}
+
 .min-w-\[375px\] {
   min-width: 375px;
 }
@@ -625,8 +645,28 @@ video {
   justify-content: space-between;
 }
 
+.justify-evenly {
+  justify-content: space-evenly;
+}
+
 .gap-5 {
   gap: 1.25rem;
+}
+
+.gap-4 {
+  gap: 1rem;
+}
+
+.gap-6 {
+  gap: 1.5rem;
+}
+
+.gap-2 {
+  gap: 0.5rem;
+}
+
+.self-center {
+  align-self: center;
 }
 
 .border-4 {
@@ -676,6 +716,35 @@ video {
   background-color: rgb(6 95 70 / var(--tw-bg-opacity));
 }
 
+.bg-emerald-700 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(4 120 87 / var(--tw-bg-opacity));
+}
+
+.bg-emerald-700\/25 {
+  background-color: rgb(4 120 87 / 0.25);
+}
+
+.bg-emerald-700\/\[\] {
+  background-color: rgb(4 120 87 / );
+}
+
+.bg-emerald-700\/\[0\] {
+  background-color: rgb(4 120 87 / 0);
+}
+
+.bg-emerald-700\/\[0\.4\] {
+  background-color: rgb(4 120 87 / 0.4);
+}
+
+.bg-emerald-700\/\[0\.5\] {
+  background-color: rgb(4 120 87 / 0.5);
+}
+
+.bg-emerald-700\/50 {
+  background-color: rgb(4 120 87 / 0.5);
+}
+
 .bg-hero-image {
   background-image: url("./images/light3.jpg");
 }
@@ -702,6 +771,14 @@ video {
 
 .p-6 {
   padding: 1.5rem;
+}
+
+.p-10 {
+  padding: 2.5rem;
+}
+
+.p-8 {
+  padding: 2rem;
 }
 
 .px-4 {
@@ -737,6 +814,16 @@ video {
 .px-6 {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
+}
+
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
 .pb-\[100px\] {
@@ -779,6 +866,16 @@ video {
   line-height: 1.75rem;
 }
 
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -804,6 +901,31 @@ video {
 .text-zinc-100 {
   --tw-text-opacity: 1;
   color: rgb(244 244 245 / var(--tw-text-opacity));
+}
+
+.text-pink-700 {
+  --tw-text-opacity: 1;
+  color: rgb(190 24 93 / var(--tw-text-opacity));
+}
+
+.text-rose-700 {
+  --tw-text-opacity: 1;
+  color: rgb(190 18 60 / var(--tw-text-opacity));
+}
+
+.text-rose-300 {
+  --tw-text-opacity: 1;
+  color: rgb(253 164 175 / var(--tw-text-opacity));
+}
+
+.text-rose-400 {
+  --tw-text-opacity: 1;
+  color: rgb(251 113 133 / var(--tw-text-opacity));
+}
+
+.text-rose-600 {
+  --tw-text-opacity: 1;
+  color: rgb(225 29 72 / var(--tw-text-opacity));
 }
 
 .bg-blend-overlay {

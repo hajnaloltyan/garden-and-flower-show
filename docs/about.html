@@ -12,7 +12,7 @@
     <script src="https://kit.fontawesome.com/d3c3e6e26d.js" crossorigin="anonymous" defer></script>
     <title>Flower and Garden Show</title>
   </head>
-  <body class="font-sans min-w-[375px] overflow-x-scroll">
+  <body class="font-sans min-w-[375px]">
     <header class="md:px-5" id="home">
       <!-- Top Header -->
 
@@ -88,7 +88,7 @@
 
       <!-- Mobile Menu -->
 
-      <div class="md:hidden bg-hero-image bg-center bg-no-repeat bg-cover bg-blend-overlay bg-stone-400 px-5 fixed top-0 left-0 right-0 h-[100vh] transition translate-x-full delay-300 target:-translate-x-0" id="menu">
+      <div class="md:hidden bg-hero-image bg-bottom bg-no-repeat bg-cover bg-blend-overlay bg-stone-400 px-5 fixed top-0 left-0 right-0 h-[100vh] transition translate-x-full delay-300 target:-translate-x-0" id="menu">
         <div class="md:hidden flex justify-between content-center flex-wrap pb-[50px] py-3">
           <a href="#home">
             <img src="./images/hajnaloltyan-logo.png" alt="Logo" class="h-[35px] block">
@@ -132,7 +132,7 @@
     <main>
       <!-- Hero Section -->
 
-      <section class="bg-hero-image bg-center bg-no-repeat bg-cover bg-blend-overlay bg-stone-400 pb-[100px] px-4 py-3">
+      <section class="bg-hero-image bg-center bg-no-repeat bg-cover bg-blend-overlay bg-stone-400 px-4 py-3 pb-10 text-center">
 
         <div class="md:hidden flex justify-between content-center flex-wrap pb-[50px]">
           <a href="#home">
@@ -148,58 +148,55 @@
           "Hello, Sharing world!"
         </h2>
 
-        <h1 class="text-6xl font-extrabold text-emerald-800/[0.8] mb-6">
+        <h1 class="text-5xl font-extrabold text-emerald-800/[0.8] mb-6">
           Garden and Flower Show 2023
         </h1>
 
-        <p class="text border-4 border-zinc-500 p-4 mb-4">
-          A joyful celebration of amazing garden designs, gorgeous floral displays and exclusive shopping deals.
+        <p class="text-lg border-2 border-zinc-500 bg-stone-100 p-4 mb-4">
+          Visit us to experience different gardening styles from all over the World and get a smell of these rare flower designs.
         </p>
 
-        <h2 class="text-4xl font-extrabold mb-2">
-          2023.05.15. ~ 05.20.
-        </h2>
-        <h3 class="text-xl">
-          @ Such Place and location
-        </h3>
+        <p class="text-lg font-bold px-10 py-4">
+          Please contact us via Email if you any further questions about Garden and Flower Show 2023!
+        </p>
+
+        <a href="mailto:gardenandflower2023@garden.com" class="underline font-bold text-lg hover:text-emerald-700">gardenandflower2023@garden.com</a>
       </section>
 
-      <!-- Main Program Section -->
+      <!-- Chosen Design Section -->
 
-      <section class="bg-main-image bg-center bg-no-repeat bg-cover bg-blend-overlay bg-zinc-800 text-zinc-100 px-4 py-8 flex flex-col justify-evenly gap-8">
+      <section class="px-4 py-8 text-center">
         <h3 class="text-3xl font-bold text-center mb-6">
-          Main Program
+          Flower and Garden Show 2023 - Design Theme
 
           <div class="border-b-2 border-rose-700 w-[60px] pt-4 mx-auto"></div>
         </h3>
 
-        <div class="flex flex-col gap-4 justify-evenly" id="program-card"></div>
+        <p class="text-lg font-bold text-rose-700 pb-6">
+          This year's Theme is : 'Rose petal'.
+        </p>
 
-        <a href="#program" class="block text-xl text-center font-bold border-2 border-emerald-800 bg-emerald-800 p-6 w-[90%] mx-[5%] mb-6 mt-6">
-          Visit Flower and Garden Show 2023
-        </a>
-
-        <a href="#program" class="hidden md:block">
-          See the whole program
-        </a>
+        <img src="./images/rose.jpg" alt="Rose petal" class="border-2 mx-2 object-contain">
       </section>
 
-      <!-- Featured Gardens Section -->
+      <!-- Past Shows Section -->
 
-      <section class="px-4 py-8">
+      <section class="px-4 py-8 text-center">
         <h3 class="text-3xl font-bold text-center mb-6">
-          Featured Gardens
+          See the Past Flower and Garden Shows
 
           <div class="border-b-2 border-rose-700 w-[60px] pt-4 mx-auto"></div>
         </h3>
 
-        <div class="flex flex-col gap-10 justify-evenly py-8" id="garden-card"></div>
+        <p class="text-lg font-bold text-rose-700 pb-6">
+          Take a look at the last couple of shows from previous years.
+        </p>
 
-        <button class="border-2 w-full py-4 md:hidden" id="more">
-          MORE
+        <div>
+          <h3>2022</h3>
 
-          <i class="fa-solid fa-angle-down fa-lg text-rose-700 ml-4"></i>
-        </button>
+          <h4>Flower and Garden Show: Hydrangea</h4>
+        </div>
       </section>
     </main>
 

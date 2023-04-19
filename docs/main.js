@@ -2,9 +2,9 @@
 
 window.addEventListener('hashchange', () => {
   if (window.location.hash === '#menu') {
-    document.body.classList.add('header--open-menu');
+    document.body.classList.add('overflow-hidden');
   } else {
-    document.body.classList.remove('header--open-menu');
+    document.body.classList.remove('overflow-hidden');
   }
 });
 
@@ -170,8 +170,6 @@ createGardenCards();
 // Mobile - Show more button
 
 const screenSize = window.matchMedia('(max-width: 767px)');
-
-console.log(screenSize);
 
 if (screenSize.matches) {
   const gardenCards = document.getElementsByClassName('garden');

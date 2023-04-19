@@ -1,12 +1,12 @@
 // Mobile Menu
 
-// window.addEventListener('hashchange', () => {
-//   if (window.location.hash === '#menu') {
-//     document.body.classList.add('header--open-menu');
-//   } else {
-//     document.body.classList.remove('header--open-menu');
-//   }
-// });
+window.addEventListener('hashchange', () => {
+  if (window.location.hash === '#menu') {
+    document.body.classList.add('header--open-menu');
+  } else {
+    document.body.classList.remove('header--open-menu');
+  }
+});
 
 // Create Program Cards
 
@@ -134,7 +134,7 @@ const gardenContainer = document.getElementById('garden-card');
 const createGardenCards = () => {
   gardenCard.map((gardenInfo) => {
     const createGarden = document.createElement('article');
-    const classes = ['flex', 'gap-4'];
+    const classes = ['flex', 'gap-4', 'garden'];
     createGarden.classList.add(...classes);
 
     createGarden.innerHTML = `
@@ -166,3 +166,28 @@ const createGardenCards = () => {
 };
 
 createGardenCards();
+
+// Mobile - Show more button
+
+const screenSize = window.matchMedia('(max-width: 767px)');
+
+console.log(screenSize);
+
+if (screenSize.matches) {
+  const gardenCards = document.getElementsByClassName('garden');
+  const cardsHidden = [];
+
+  for (let i = 2; i < gardenCards.length; i += 1) {
+    cardsHidden.push(gardenCards[i]);
+  }
+
+  cardsHidden.forEach((card) => card.classList.add('hidden'));
+
+  const moreButton = document.getElementById('more');
+
+  moreButton.addEventListener('click', () => {
+    cardsHidden.forEach((card) => card.classList.remove('hidden'));
+
+    moreButton.classList.add('hidden');
+  });
+}

@@ -82,7 +82,7 @@ createProgramCards();
 const gardenCard = [
   {
     id: '0',
-    image: './images/garden-0.jpg',
+    image: './images/garden_0.jpg',
     title: 'Rose Gardens',
     subtitle: 'Roses are all year around flowering plants and they come in many shapes and colors.',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda qui, corrupti, dolorum placeat veritatis officia deserunt quis aperiam.',
@@ -90,7 +90,7 @@ const gardenCard = [
 
   {
     id: '1',
-    image: './images/garden-1.jpg',
+    image: './images/garden_1.jpg',
     title: 'Rose Gardens',
     subtitle: 'Roses are all year around flowering plants and they come in many shapes and colors.',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda qui, corrupti, dolorum placeat veritatis officia deserunt quis aperiam.',
@@ -98,7 +98,7 @@ const gardenCard = [
 
   {
     id: '2',
-    image: './images/garden-2.jpg',
+    image: './images/garden_2.jpg',
     title: 'Rose Gardens',
     subtitle: 'Roses are all year around flowering plants and they come in many shapes and colors.',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda qui, corrupti, dolorum placeat veritatis officia deserunt quis aperiam.',
@@ -106,7 +106,7 @@ const gardenCard = [
 
   {
     id: '3',
-    image: './images/garden-3.jpg',
+    image: './images/garden_3.jpg',
     title: 'Rose Gardens',
     subtitle: 'Roses are all year around flowering plants and they come in many shapes and colors.',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda qui, corrupti, dolorum placeat veritatis officia deserunt quis aperiam.',
@@ -114,7 +114,7 @@ const gardenCard = [
 
   {
     id: '4',
-    image: './images/garden-4.jpg',
+    image: './images/garden_4.jpg',
     title: 'Rose Gardens',
     subtitle: 'Roses are all year around flowering plants and they come in many shapes and colors.',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda qui, corrupti, dolorum placeat veritatis officia deserunt quis aperiam.',
@@ -122,7 +122,7 @@ const gardenCard = [
 
   {
     id: '5',
-    image: './images/garden-5.jpg',
+    image: './images/garden_5.jpg',
     title: 'Rose Gardens',
     subtitle: 'Roses are all year around flowering plants and they come in many shapes and colors.',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda qui, corrupti, dolorum placeat veritatis officia deserunt quis aperiam.',
@@ -139,7 +139,7 @@ const createGardenCards = () => {
 
     createGarden.innerHTML = `
       <img 
-        src="./images/garden-${gardenInfo.id}" 
+        src="./images/garden_${gardenInfo.id}.jpg" 
         alt="Garden"
         class="w-[150px] h-[150px] object-cover self-center"
       >

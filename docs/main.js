@@ -76,3 +76,93 @@ const createProgramCards = () => {
 };
 
 createProgramCards();
+
+// Create Garden Cards
+
+const gardenCard = [
+  {
+    id: '0',
+    image: './images/garden-0.jpg',
+    title: 'Rose Gardens',
+    subtitle: 'Roses are all year around flowering plants and they come in many shapes and colors.',
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda qui, corrupti, dolorum placeat veritatis officia deserunt quis aperiam.',
+  },
+
+  {
+    id: '1',
+    image: './images/garden-1.jpg',
+    title: 'Rose Gardens',
+    subtitle: 'Roses are all year around flowering plants and they come in many shapes and colors.',
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda qui, corrupti, dolorum placeat veritatis officia deserunt quis aperiam.',
+  },
+
+  {
+    id: '2',
+    image: './images/garden-2.jpg',
+    title: 'Rose Gardens',
+    subtitle: 'Roses are all year around flowering plants and they come in many shapes and colors.',
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda qui, corrupti, dolorum placeat veritatis officia deserunt quis aperiam.',
+  },
+
+  {
+    id: '3',
+    image: './images/garden-3.jpg',
+    title: 'Rose Gardens',
+    subtitle: 'Roses are all year around flowering plants and they come in many shapes and colors.',
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda qui, corrupti, dolorum placeat veritatis officia deserunt quis aperiam.',
+  },
+
+  {
+    id: '4',
+    image: './images/garden-4.jpg',
+    title: 'Rose Gardens',
+    subtitle: 'Roses are all year around flowering plants and they come in many shapes and colors.',
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda qui, corrupti, dolorum placeat veritatis officia deserunt quis aperiam.',
+  },
+
+  {
+    id: '5',
+    image: './images/garden-5.jpg',
+    title: 'Rose Gardens',
+    subtitle: 'Roses are all year around flowering plants and they come in many shapes and colors.',
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda qui, corrupti, dolorum placeat veritatis officia deserunt quis aperiam.',
+  },
+];
+
+const gardenContainer = document.getElementById('garden-card');
+
+const createGardenCards = () => {
+  gardenCard.map((gardenInfo) => {
+    const createGarden = document.createElement('article');
+    const classes = ['flex', 'gap-4'];
+    createGarden.classList.add(...classes);
+
+    createGarden.innerHTML = `
+      <img 
+        src="./images/garden-${gardenInfo.id}" 
+        alt="Garden"
+        class="w-[150px] h-[150px] object-cover self-center"
+      >
+
+      <div class="flex flex-col gap-2">
+        <h4 class="text-2xl font-extrabold">
+          ${gardenInfo.title}
+        </h4>
+
+        <h5 class="text-rose-700 font-bold italic">
+          ${gardenInfo.subtitle}
+
+          <div class="border-b-2 border-zinc-300 w-[30px] pt-4"></div>
+        </h5>
+
+        <p class="text-sm">
+          ${gardenInfo.description}
+        </p>
+      </div>
+    `;
+
+    return gardenContainer.appendChild(createGarden);
+  });
+};
+
+createGardenCards();

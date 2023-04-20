@@ -52,7 +52,7 @@ const programContainer = document.getElementById('program-card');
 const createProgramCards = () => {
   programCard.map((programInfo) => {
     const createProgram = document.createElement('article');
-    const classes = ['grid', 'grid-cols-4', 'gap-2', 'bg-emerald-700/50', 'px-2', 'py-8', 'md:grid-rows-4', 'md:grid-cols-1'];
+    const classes = ['grid', 'grid-cols-4', 'gap-2', 'bg-emerald-700/50', 'px-2', 'py-8', 'md:grid-rows-4', 'md:grid-cols-1', 'transition-all', 'hover:scale-105', 'cursor-pointer'];
     createProgram.classList.add(...classes);
 
     createProgram.innerHTML = `
@@ -141,21 +141,21 @@ const createGardenCards = () => {
       <img 
         src="./images/garden_${gardenInfo.id}.jpg" 
         alt="Garden"
-        class="w-[150px] h-[150px] object-cover self-center"
+        class="w-[150px] h-[150px] lg:h-[100px] lg:w-[100px] object-cover self-center transition-all hover:scale-110"
       >
 
       <div class="flex flex-col gap-2">
-        <h4 class="text-2xl font-extrabold">
+        <h4 class="text-2xl font-extrabold lg:text-xl">
           ${gardenInfo.title}
         </h4>
 
-        <h5 class="text-rose-700 font-bold italic">
+        <h5 class="text-rose-700 font-bold italic lg:text-sm">
           ${gardenInfo.subtitle}
 
-          <div class="border-b-2 border-zinc-300 w-[30px] pt-4"></div>
+          <div class="border-b-2 border-zinc-300 w-[30px] pt-4 lg:pt-2"></div>
         </h5>
 
-        <p class="text-sm">
+        <p class="text-sm lg:text-xs">
           ${gardenInfo.description}
         </p>
       </div>

@@ -5,3 +5,8 @@
 .header--open-menu {
   overflow: hidden;
 }
+
+
+* {
+scroll-behavior: smooth;
+}

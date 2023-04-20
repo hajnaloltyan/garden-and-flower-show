@@ -18,7 +18,7 @@
       <!-- Top Header -->
 
       <div class="hidden md:block">
-        <nav class="h-[35px] bg-zinc-800 text-neutral-300 px-[15%] flex justify-end content-center flex-wrap">
+        <nav class="h-[35px] bg-zinc-800 text-neutral-300 md:px-[5%] lg:px-[15%] flex justify-end content-center flex-wrap">
           <ul class="flex gap-5">
             <li class=" hover:text-rose-700">
               <a href="https://www.facebook.com">
@@ -49,7 +49,7 @@
 
       <!-- Desktop Header -->
 
-      <div class="hidden md:px-[15%] md:py-2 md:flex justify-between items-center gap-8">
+      <div class="hidden md:px-[5%] lg:px-[15%] md:py-2 md:flex justify-between items-center gap-8">
         <a href="#home">
           <img src="./images/flower-logo1.png" alt="Logo" width="150px">
         </a>
@@ -82,8 +82,8 @@
           </ul>
         </nav>
 
-        <a href="/">
-          <h3 class="border-4 px-4 py-2 border-rose-700 text-rose-700 font-bold hover:bg-rose-700 hover:text-white hover:shadow-md hover:shadow-zinc-500">
+        <a href="#home">
+          <h3 class="border-4 px-4 py-2 border-rose-700 text-rose-700 font-bold hover:bg-rose-700 hover:text-white hover:shadow-md hover:shadow-zinc-500 ease-in-out delay-200">
             Garden Campaign
           </h3>
         </a>
@@ -135,7 +135,7 @@
     <main>
       <!-- Hero Section -->
 
-      <section class="bg-hero-image bg-center bg-no-repeat bg-cover bg-blend-overlay bg-stone-300 pb-[100px] px-4 py-3 md:px-[15%] md:py-[100px]">
+      <section class="bg-hero-image bg-center bg-no-repeat bg-cover bg-blend-overlay bg-stone-300 pb-[100px] px-4 py-3 md:px-[5%] lg:px-[15%] md:py-[100px]">
 
         <div class="md:hidden flex justify-between content-center flex-wrap pb-[50px]">
           <a href="#home">
@@ -151,11 +151,11 @@
           "Hello, Sharing world!"
         </h2>
 
-        <h1 class="text-6xl font-extrabold text-emerald-800/[0.8] mb-6 md:w-[60%] md:text-8xl">
+        <h1 class="text-6xl font-extrabold text-emerald-800/[0.8] mb-6 lg:w-[70%] md:text-8xl">
           Garden and Flower Show 2023
         </h1>
 
-        <p class="text border-4 border-zinc-500 p-4 mb-4 md:w-[45%] md:mb-8">
+        <p class="text border-4 border-zinc-500 p-4 mb-4 md:w-[70%] lg:w-[55%] md:mb-8">
           A joyful celebration of amazing garden designs, gorgeous floral displays and exclusive shopping deals.
         </p>
 
@@ -169,7 +169,7 @@
 
       <!-- Main Program Section -->
 
-      <section class="bg-main-image bg-center bg-no-repeat bg-cover bg-blend-overlay bg-zinc-800 text-zinc-100 px-4 py-8 flex flex-col justify-evenly gap-8 md:py-10 md:px-[15%]">
+      <section class="bg-main-image bg-center bg-no-repeat bg-cover bg-blend-overlay bg-zinc-800 text-zinc-100 px-4 py-8 flex flex-col justify-evenly gap-8 md:py-10 md:px-[5%] lg:px-[15%]">
         <h3 class="text-3xl font-bold text-center mb-6">
           Main Program
 
@@ -189,14 +189,14 @@
 
       <!-- Featured Gardens Section -->
 
-      <section class="px-4 py-8">
+      <section class="px-4 py-8 md:px-[20%] lg:px-[15%]">
         <h3 class="text-3xl font-bold text-center mb-6">
           Featured Gardens
 
           <div class="border-b-2 border-rose-700 w-[60px] pt-4 mx-auto"></div>
         </h3>
 
-        <div class="flex flex-col gap-10 justify-evenly py-8" id="garden-card"></div>
+        <div class="flex flex-col gap-10 justify-evenly py-8 lg:grid lg:grid-cols-2 lg:" id="garden-card"></div>
 
         <button class="border-2 w-full py-4 md:hidden" id="more">
           MORE
@@ -209,7 +209,7 @@
     <footer>
       <!-- Partner Section -->
 
-      <section class="px-4 py-[50px] text-zinc-100 bg-zinc-700">
+      <section class="px-4 py-[50px] text-zinc-100 bg-zinc-700 md:px-[5%] lg:px-[15%]">
         <h3 class="text-3xl font-bold text-center mb-6">
           Partner
 
@@ -217,28 +217,30 @@
         </h3>
 
         <ul class="flex justify-center gap-4 flex-wrap">
-          <li><a href="https://google.com"><img src="./images/google.svg" alt="Google" width="150px"></a></li>
-          <li><a href="https://airbnb.com"><img src="./images/airbnb.svg" alt="Airbnb" width="150px"></a></li>
-          <li><a href="https://mozilla.com"><img src="./images/mozilla-1.svg" alt="Mozilla" width="150px"></a></li>
-          <li><a href="https://quora.com"><img src="./images/quora-black.svg" alt="Quora" width="150px"></a></li>
+          <li><a href="https://google.com"><img src="./images/google.svg" alt="Google" width="120px"></a></li>
+          <li><a href="https://airbnb.com"><img src="./images/airbnb.svg" alt="Airbnb" width="120px"></a></li>
+          <li><a href="https://mozilla.com"><img src="./images/mozilla-1.svg" alt="Mozilla" width="120px"></a></li>
+          <li><a href="https://quora.com"><img src="./images/quora-black.svg" alt="Quora" width="120px"></a></li>
         </ul>
       </section>
 
       <!-- Bottom  Footer -->
 
-      <section class="p-[50px] flex justify-between font-bold">
+      <section class="p-[50px] flex gap-10 place-content-center font-bold md:px-[15%] md:gap-[80px]">
         <a href="#home">
-          <img src="./images/flower-logo1.png" alt="Logo" width="120px">
+          <img src="./images/flower-logo1.png" alt="Logo" width="120px" class="md:w-[200px]">
         </a>
 
-        <div class="pt-2">
-          <h5 class="text-wrap text-center">
-            2023 &copy; Garden and Flower Show
-          </h5>
-
-          <h5 class="text-center">
-            All rights reserved.
-          </h5>
+        <div class="md:self-center">
+          <div class="md:flex md:gap-4">
+            <h5 class="text-wrap text-center">
+              2023 &copy; Garden and Flower Show
+            </h5>
+  
+            <h5 class="text-center">
+              All rights reserved.
+            </h5>
+          </div>
 
           <p class="hidden md:block">
             This project is protected by the MIT License, which allows for free and open use, modification, and distribution of the software.

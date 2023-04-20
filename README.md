@@ -65,7 +65,7 @@ As my fist Capstone Project ending Module 1, I created a site to showcase all th
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://hajnaloltyan.github.io/[project-name])
+- [Live Demo Link](https://hajnaloltyan.github.io/garden-and-flower-show/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -83,13 +83,11 @@ In order to run this project you need:
   - Node
 
 
-
 ### Setup
 
 Clone this repository to your desired folder by opening the terminal and running the following command:
 
-```
-  git clone git@github.com:hajnaloltyan/[project-name].git
+```git clone git@github.com:hajnaloltyan/garden-and-flower-show.git
 
 ```
 
@@ -98,10 +96,11 @@ Clone this repository to your desired folder by opening the terminal and running
 
 Install this project with:
 
-```
-  npm install
+```npm install
 
 ```
+
+Then follow instructions from here to [install Tailwind CSS](https://tailwindcss.com/docs/installation)
 
 ### Usage
 
@@ -115,14 +114,18 @@ To run tests, run the following commands:
 
   For HTML linter errors:
 
-```
-  npx hint .
+```npx hint .
 
 ```
   For CSS linter errors:
 
+```npx stylelint "**/*.{css,scss}"
+
 ```
-  npx stylelint "**/*.{css,scss}"
+
+For Javascript linter errors:
+
+```npx eslint .
 
 ```
 
@@ -171,6 +174,22 @@ If you like this project please leave a star and a comment.
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank Microverse to have this opportunity, and also thank you the code review team. 
+
+I would also like to thank [Cindy Shin in Behance](https://www.behance.net/adagio07) for the Original design idea.
+
+And for the images from Unsplash thanks to the following artists:
+
+* [Dean Lewis](https://unsplash.com/photos/yRW1i2g80Ec?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
+* [Elin Gann](https://unsplash.com/photos/b96nUqrd5-Q)
+* [Connor Moyle](https://unsplash.com/photos/Fp2WRKyNWDI)
+* [Andreas Haslinger](https://unsplash.com/photos/3UPun-zafgQ)
+* [Thom Milkovic](https://unsplash.com/photos/cBS0qKJM-P4)
+* [Zoe Schaeffer](https://unsplash.com/photos/xmpC7N_e2HI)
+* [Edgar Castrejon](https://unsplash.com/photos/Se5cwIoUbzE)
+* [Daniel Mirlea](https://unsplash.com/photos/fxiAxNLpoqI)
+* [Man Chung](https://unsplash.com/photos/eML9gnJya6Q)
+* [Veronica Reverse](https://unsplash.com/photos/qYwyRF9u-uo)
+* [Jan Canty](https://unsplash.com/photos/KcQuXaHCSPE)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

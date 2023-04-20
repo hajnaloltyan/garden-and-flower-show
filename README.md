@@ -4,8 +4,6 @@
   <img src="./docs/images/hajnaloltyan-logo.png" alt="logo" width="140"  height="auto" />
 </div>
 
-<!-- Don't forget to edit all [Project Name] parts of this file, add the License and the Logo, plus include the live link and git clone link!!! -->
-
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -33,7 +31,9 @@
 
 # 📖 [Project Name] <a name="about-project"></a>
 
-This is my Microverse **[Project Name]** site, created with HTML, CSS and mobile first approach.
+This is my Microverse **Garden and Flower Show** site, created with HTML, Tailwind CSS, Javascript and mobile first approach.
+
+As my fist Capstone Project ending Module 1, I created a site to showcase all that I have learnt while completing the Portal.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -44,11 +44,11 @@ This is my Microverse **[Project Name]** site, created with HTML, CSS and mobile
 </details>
 
 <details>
-  <summary>CSS</summary>
+  <summary>Tailwind CSS</summary>
 </details>
 
 <details>
-<summary>Git</summary>
+<summary>Javascript</summary>
 </details>
 
 <!-- Features -->
@@ -57,6 +57,7 @@ This is my Microverse **[Project Name]** site, created with HTML, CSS and mobile
 
 - **Responsive**
 - **GitHub WorkFlow**
+- **Grid and Flexbox**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

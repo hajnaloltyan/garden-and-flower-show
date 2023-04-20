@@ -14,36 +14,36 @@ const programCard = [
   {
     id: '0',
     image: './images/program_icon_0.png',
-    title: 'Lecture',
-    description: 'Some text would come here. And more text.',
+    title: 'Design Ideas',
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
   },
 
   {
     id: '1',
     image: './images/program_icon_1.png',
-    title: 'Lecture',
-    description: 'Some text would come here. And more text.',
+    title: 'Unique Flowers',
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
   },
 
   {
     id: '2',
     image: './images/program_icon_2.png',
-    title: 'Lecture',
-    description: 'Some text would come here. And more text.',
+    title: 'Forum',
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
   },
 
   {
     id: '3',
     image: './images/program_icon_3.png',
-    title: 'Lecture',
-    description: 'Some text would come here. And more text.',
+    title: 'Creative Gardens',
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
   },
 
   {
     id: '4',
     image: './images/program_icon_4.png',
-    title: 'Lecture',
-    description: 'Some text would come here. And more text.',
+    title: 'Events',
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
   },
 ];
 
@@ -52,21 +52,21 @@ const programContainer = document.getElementById('program-card');
 const createProgramCards = () => {
   programCard.map((programInfo) => {
     const createProgram = document.createElement('article');
-    const classes = ['flex', 'gap-5', 'bg-emerald-700/50', 'px-2', 'py-8'];
+    const classes = ['grid', 'grid-cols-4', 'gap-2', 'bg-emerald-700/50', 'px-2', 'py-8'];
     createProgram.classList.add(...classes);
 
     createProgram.innerHTML = `
       <img 
         src="./images/program_icon_${programInfo.id}.png" 
         alt="Icon"
-        class="self-center"
+        class="m-auto col-span-1"
       >
 
-      <h4 class="text-xl text-rose-600 font-extrabold text-center self-center">
+      <h4 class="text-xl text-rose-600 font-extrabold self-center col-span-1">
         ${programInfo.title}
       </h4>
 
-      <p class="flex-wrap self-center">
+      <p class="flex-wrap self-center col-span-2">
         ${programInfo.description}
       </p>
     `;

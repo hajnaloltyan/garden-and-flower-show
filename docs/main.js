@@ -52,21 +52,21 @@ const programContainer = document.getElementById('program-card');
 const createProgramCards = () => {
   programCard.map((programInfo) => {
     const createProgram = document.createElement('article');
-    const classes = ['grid', 'grid-cols-4', 'gap-2', 'bg-emerald-700/50', 'px-2', 'py-8'];
+    const classes = ['grid', 'grid-cols-4', 'gap-2', 'bg-emerald-700/50', 'px-2', 'py-8', 'md:grid-rows-4', 'md:grid-cols-1'];
     createProgram.classList.add(...classes);
 
     createProgram.innerHTML = `
       <img 
         src="./images/program_icon_${programInfo.id}.png" 
         alt="Icon"
-        class="m-auto col-span-1"
+        class="m-auto col-span-1 md:row-span-1"
       >
 
-      <h4 class="text-xl text-rose-600 font-extrabold self-center col-span-1">
+      <h4 class="text-xl text-rose-600 font-extrabold self-center col-span-1 md:row-span-1 md:text-center">
         ${programInfo.title}
       </h4>
 
-      <p class="flex-wrap self-center col-span-2">
+      <p class="flex-wrap self-center col-span-2 md:row-span-2 md:col-span-1 md:text-center">
         ${programInfo.description}
       </p>
     `;

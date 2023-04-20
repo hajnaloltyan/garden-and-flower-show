@@ -8,6 +8,8 @@ module.exports = {
     backgroundImage: {
       'hero-image': 'url("./images/light3.jpg")',
       'main-image': 'url("./images/green-main.jpg")',
+      'clematis-image': 'url("./images/clematis1.jpg")',
+      'hydrangea-image': 'url("./images/hydrangea.jpg")',
     },
     extend: {},
   },

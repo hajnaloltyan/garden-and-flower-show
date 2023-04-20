@@ -83,24 +83,24 @@ const gardenCard = [
   {
     id: '0',
     image: './images/garden_0.jpg',
-    title: 'Rose Gardens',
-    subtitle: 'Roses are all year around flowering plants and they come in many shapes and colors.',
+    title: 'Fairy Gardens',
+    subtitle: 'In Ireland, fairy gardens are thought to be the gateway to the underground spirit world.',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda qui, corrupti, dolorum placeat veritatis officia deserunt quis aperiam.',
   },
 
   {
     id: '1',
     image: './images/garden_1.jpg',
-    title: 'Rose Gardens',
-    subtitle: 'Roses are all year around flowering plants and they come in many shapes and colors.',
+    title: 'Traditional Gardens',
+    subtitle: 'They feature abundant spring bulbs, flowering shrubs and perennial with clipped hedges and tended lawn.',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda qui, corrupti, dolorum placeat veritatis officia deserunt quis aperiam.',
   },
 
   {
     id: '2',
     image: './images/garden_2.jpg',
-    title: 'Rose Gardens',
-    subtitle: 'Roses are all year around flowering plants and they come in many shapes and colors.',
+    title: 'Clematis',
+    subtitle: 'Most species are known as clematis in English, while some are also known as traveller\'s joy.',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda qui, corrupti, dolorum placeat veritatis officia deserunt quis aperiam.',
   },
 
@@ -108,23 +108,23 @@ const gardenCard = [
     id: '3',
     image: './images/garden_3.jpg',
     title: 'Rose Gardens',
-    subtitle: 'Roses are all year around flowering plants and they come in many shapes and colors.',
+    subtitle: 'A rose garden is a garden or park, often open to the public, used to present various types of roses.',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda qui, corrupti, dolorum placeat veritatis officia deserunt quis aperiam.',
   },
 
   {
     id: '4',
     image: './images/garden_4.jpg',
-    title: 'Rose Gardens',
-    subtitle: 'Roses are all year around flowering plants and they come in many shapes and colors.',
+    title: 'Persian Buttercups',
+    subtitle: 'A tuberous perennial boasting brilliantly colored flowers, adored by florists and gardeners.',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda qui, corrupti, dolorum placeat veritatis officia deserunt quis aperiam.',
   },
 
   {
     id: '5',
     image: './images/garden_5.jpg',
-    title: 'Rose Gardens',
-    subtitle: 'Roses are all year around flowering plants and they come in many shapes and colors.',
+    title: 'Succulents',
+    subtitle: 'Don\'t underestimate the power of succulents in your flower garden or living room.',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda qui, corrupti, dolorum placeat veritatis officia deserunt quis aperiam.',
   },
 ];

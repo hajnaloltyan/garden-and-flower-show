@@ -67,6 +67,8 @@ As my fist Capstone Project ending Module 1, I created a site to showcase all th
 
 - [Live Demo Link](https://hajnaloltyan.github.io/garden-and-flower-show/)
 
+- In this [video](https://www.loom.com/share/42d8a19fda604a3fa6c75314e6e76101) I share a live view of my project while also talking about the creation
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->

@@ -89,8 +89,8 @@ In order to run this project you need:
 
 Clone this repository to your desired folder by opening the terminal and running the following command:
 
-```
-git clone git@github.com:hajnaloltyan/garden-and-flower-show.git
+```sh
+ git clone `git@github.com:hajnaloltyan/garden-and-flower-show.git`
 
 ```
 
@@ -99,8 +99,8 @@ git clone git@github.com:hajnaloltyan/garden-and-flower-show.git
 
 Install this project with:
 
-```
-npm install
+```sh
+ npm install
 
 ```
 
@@ -118,21 +118,21 @@ To run tests, run the following commands:
 
   For HTML linter errors:
 
-```
-npx hint .
+```sh
+ npx hint .
 
 ```
   For CSS linter errors:
 
-```
-npx stylelint "**/*.{css,scss}"
+```sh
+ npx stylelint "**/*.{css,scss}"
 
 ```
 
 For Javascript linter errors:
 
-```
-npx eslint .
+```sh
+ npx eslint .
 
 ```
 
@@ -157,6 +157,8 @@ Deployed by GitHub Pages.
 
 ## 🔭 Future Features <a name="future-features"></a>
 
+- Creating all the remaining sites 
+- Adding more functionality
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

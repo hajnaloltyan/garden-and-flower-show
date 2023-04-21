@@ -5,9 +5,6 @@ module.exports = {
     fontFamily: {
       sans: ['Lato', 'sans-serif'],
     },
-    colors: {
-      tears: '#ec5242',
-    },
     backgroundImage: {
       'hero-image': 'url("./images/light3.jpg")',
       'main-image': 'url("./images/green-main.jpg")',

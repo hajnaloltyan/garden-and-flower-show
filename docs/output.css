@@ -755,6 +755,11 @@ video {
   border-color: rgb(113 113 122 / var(--tw-border-opacity));
 }
 
+.border-\[\#ec5242\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(236 82 66 / var(--tw-border-opacity));
+}
+
 .bg-emerald-700\/50 {
   background-color: rgb(4 120 87 / 0.5);
 }
@@ -787,6 +792,63 @@ video {
 .bg-zinc-800 {
   --tw-bg-opacity: 1;
   background-color: rgb(39 39 42 / var(--tw-bg-opacity));
+}
+
+.bg-\[\] {
+  background-color: ;
+}
+
+.bg-\[\#\] {
+  background-color: #;
+}
+
+.bg-\[\#e\] {
+  background-color: #e;
+}
+
+.bg-\[\#ec\] {
+  background-color: #ec;
+}
+
+.bg-\[\#ec5\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(238 204 85 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#ec5242\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(236 82 66 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#272\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(34 119 34 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#272s\] {
+  background-color: #272s;
+}
+
+.bg-\[\#272a\] {
+  background-color: #272a;
+}
+
+.bg-\[\#272a31\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(39 42 49 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#2\] {
+  background-color: #2;
+}
+
+.bg-\[\#a\] {
+  background-color: #a;
+}
+
+.bg-\[\#d3d3d3\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(211 211 211 / var(--tw-bg-opacity));
 }
 
 .bg-clematis-image {
@@ -969,18 +1031,18 @@ video {
   font-style: italic;
 }
 
+.text-\[\#ec5242\] {
+  --tw-text-opacity: 1;
+  color: rgb(236 82 66 / var(--tw-text-opacity));
+}
+
+.text-\[\#ec5242\]\/\[0\.8\] {
+  color: rgb(236 82 66 / 0.8);
+}
+
 .text-emerald-700 {
   --tw-text-opacity: 1;
   color: rgb(4 120 87 / var(--tw-text-opacity));
-}
-
-.text-emerald-800 {
-  --tw-text-opacity: 1;
-  color: rgb(6 95 70 / var(--tw-text-opacity));
-}
-
-.text-emerald-800\/\[0\.8\] {
-  color: rgb(6 95 70 / 0.8);
 }
 
 .text-neutral-300 {
@@ -1006,6 +1068,23 @@ video {
 .text-zinc-100 {
   --tw-text-opacity: 1;
   color: rgb(244 244 245 / var(--tw-text-opacity));
+}
+
+.text-\[\#\] {
+  color: #;
+}
+
+.text-\[\#d3d3d3\] {
+  --tw-text-opacity: 1;
+  color: rgb(211 211 211 / var(--tw-text-opacity));
+}
+
+.text-\[\#d\] {
+  color: #d;
+}
+
+.text-\[\] {
+  color: ;
 }
 
 .underline {
@@ -1082,6 +1161,11 @@ video {
   background-color: rgb(190 18 60 / var(--tw-bg-opacity));
 }
 
+.hover\:bg-\[\#ec5242\]:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(236 82 66 / var(--tw-bg-opacity));
+}
+
 .hover\:text-emerald-700:hover {
   --tw-text-opacity: 1;
   color: rgb(4 120 87 / var(--tw-text-opacity));
@@ -1095,6 +1179,11 @@ video {
 .hover\:text-white:hover {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.hover\:text-\[\#ec5242\]:hover {
+  --tw-text-opacity: 1;
+  color: rgb(236 82 66 / var(--tw-text-opacity));
 }
 
 .hover\:shadow-md:hover {
@@ -1207,6 +1296,24 @@ video {
     background-color: rgb(24 24 27 / var(--tw-bg-opacity));
   }
 
+  .md\:bg-\[\] {
+    background-color: ;
+  }
+
+  .md\:bg-\[\#\] {
+    background-color: #;
+  }
+
+  .md\:bg-\[\#272\] {
+    --tw-bg-opacity: 1;
+    background-color: rgb(34 119 34 / var(--tw-bg-opacity));
+  }
+
+  .md\:bg-\[\#272a31\] {
+    --tw-bg-opacity: 1;
+    background-color: rgb(39 42 49 / var(--tw-bg-opacity));
+  }
+
   .md\:px-\[15\%\] {
     padding-left: 15%;
     padding-right: 15%;
@@ -1241,23 +1348,13 @@ video {
     text-align: center;
   }
 
-  .md\:text-8xl {
-    font-size: 6rem;
+  .md\:text-5xl {
+    font-size: 3rem;
     line-height: 1;
   }
 
-  .md\:text-4xl {
-    font-size: 2.25rem;
-    line-height: 2.5rem;
-  }
-
-  .md\:text-xl {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
-  }
-
-  .md\:text-5xl {
-    font-size: 3rem;
+  .md\:text-8xl {
+    font-size: 6rem;
     line-height: 1;
   }
 
@@ -1292,24 +1389,12 @@ video {
     width: 55%;
   }
 
-  .lg\:w-\[70\%\] {
-    width: 70%;
-  }
-
-  .lg\:w-\[95\%\] {
-    width: 95%;
-  }
-
   .lg\:w-\[80\%\] {
     width: 80%;
   }
 
-  .lg\:w-\[75\%\] {
-    width: 75%;
-  }
-
-  .lg\:w-\[\%\] {
-    width: %;
+  .lg\:w-\[95\%\] {
+    width: 95%;
   }
 
   .lg\:grid-cols-2 {

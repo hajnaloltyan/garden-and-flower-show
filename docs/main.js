@@ -149,7 +149,7 @@ const createGardenCards = () => {
           ${gardenInfo.title}
         </h4>
 
-        <h5 class="text-rose-700 font-bold italic lg:text-sm">
+        <h5 class="text-[#ec5242] font-bold italic lg:text-sm">
           ${gardenInfo.subtitle}
 
           <div class="border-b-2 border-zinc-300 w-[30px] pt-4 lg:pt-2"></div>

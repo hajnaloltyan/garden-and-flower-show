@@ -52,7 +52,7 @@ const programContainer = document.getElementById('program-card');
 const createProgramCards = () => {
   programCard.map((programInfo) => {
     const createProgram = document.createElement('article');
-    const classes = ['grid', 'grid-cols-4', 'gap-2', 'bg-emerald-700/50', 'px-2', 'py-8', 'md:grid-rows-4', 'md:grid-cols-1', 'transition-all', 'hover:scale-105', 'cursor-pointer'];
+    const classes = ['grid', 'grid-cols-4', 'gap-2', 'bg-[#d3d3d3]', 'px-2', 'py-8', 'md:grid-rows-4', 'md:grid-cols-1', 'transition-all', 'hover:scale-105', 'cursor-pointer'];
     createProgram.classList.add(...classes);
 
     createProgram.innerHTML = `

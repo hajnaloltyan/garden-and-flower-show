@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="output.css">
+    <script src="main.js" defer></script>
+    <script src="https://kit.fontawesome.com/d3c3e6e26d.js" crossorigin="anonymous" defer></script>
+    <title>Garden and Flower</title>
+  </head>
+  <body class="font-sans min-w-[375px] overflow-x-scroll">
+    <header id="home">
+      <!-- Top Header -->
+
+      <div class="hidden md:block">
+        <nav class="h-[35px] bg-[#272a31] text-neutral-300 md:px-[5%] lg:px-[15%] flex justify-end content-center flex-wrap">
+          <ul class="flex gap-5">
+            <li class=" hover:text-[#ec5242]">
+              <a href="https://www.facebook.com">
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+            </li>
+
+            <li class=" hover:text-[#ec5242]">
+              <a href="https://www.twitter.com">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+            </li>
+
+            <li class=" hover:text-[#ec5242]">
+              <a href="#english">English</a>
+            </li>
+
+            <li class=" hover:text-[#ec5242]">
+              <a href="#my-page">My Page</a>
+            </li>
+
+            <li class=" hover:text-[#ec5242]">
+              <a href="#logout">Logout</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <!-- Desktop Header -->
+
+      <div class="hidden md:px-[5%] lg:px-[15%] md:py-2 md:flex justify-between items-center gap-8">
+        <a href="index.html">
+          <img src="./images/flower-logo1.png" alt="Logo" width="150px">
+        </a>
+
+        <nav class="grow">
+          <ul class="flex justify-evenly">
+            <li class="hover:text-[#ec5242]">
+              <a href="index.html">Home</a>
+            </li>
+
+            <li class="hover:text-[#ec5242]">
+              <a href="about.html">About</a>
+            </li>
+
+            <li class="hover:text-[#ec5242]">
+              <a href="#program">Program</a>
+            </li>
+
+            <li class="hover:text-[#ec5242]">
+              <a href="#join">Join</a>
+            </li>
+
+            <li class="hover:text-[#ec5242]">
+              <a href="#sponsor">Sponsor</a>
+            </li>
+
+            <li class="hover:text-[#ec5242]">
+              <a href="#news">News</a>
+            </li>
+          </ul>
+        </nav>
+
+        <a href="#home">
+          <h3 class="border-4 px-4 py-2 border-[#ec5242] text-[#ec5242] font-bold hover:bg-[#ec5242] hover:text-white hover:shadow-md hover:shadow-zinc-500 ease-in-out delay-200">
+            Garden Campaign
+          </h3>
+        </a>
+      </div>
+
+      <!-- Mobile Menu -->
+
+      <div class="md:hidden bg-hero-image bg-center bg-no-repeat bg-cover bg-blend-overlay bg-stone-300 px-5 fixed top-0 left-0 right-0 h-[100vh] transition translate-x-full delay-100 target:-translate-x-0" id="menu">
+        <div class="md:hidden flex justify-between content-center flex-wrap pb-[50px] py-3">
+          <a href="index.html">
+            <img src="./images/flower-logo1.png" alt="Logo" width="150px" class="block">
+          </a>
+
+          <a href="#home">
+            <i class="fa-solid fa-x fa-xl"></i>
+          </a>
+        </div>
+
+        <nav>
+          <ul class="flex flex-col gap-5 text-3xl font-bold px-6">
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+
+            <li>
+              <a href="about.html">About</a>
+            </li>
+
+            <li>
+              <a href="#program">Program</a>
+            </li>
+
+            <li>
+              <a href="#join">Join</a>
+            </li>
+
+            <li>
+              <a href="#sponsor">Sponsor</a>
+            </li>
+
+            <li>
+              <a href="#news">News</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+
+      <section class="bg-hero-image bg-center bg-no-repeat bg-cover bg-blend-overlay bg-stone-300 pb-[100px] px-4 py-3 md:px-[5%] lg:px-[15%] md:py-[100px]">
+
+        <div class="md:hidden flex justify-between items-center flex-wrap pb-[50px]">
+          <a href="index.html">
+            <img src="./images/flower-logo1.png" alt="Logo" width="150px" class="block">
+          </a>
+
+          <a href="#menu">
+            <i class="fa-solid fa-bars fa-xl"></i>
+          </a>
+        </div>
+
+        <h2 class="text-3xl text-[#ec5242] mb-2 text-center md:text-5xl">
+          "Hello, Sharing world!"
+        </h2>
+
+        <h1 class="text-6xl font-extrabold text-[#ec5242]/[0.8] mb-6 md:text-8xl text-center lg:w-[80%] md:mx-auto lg:mb-10">
+          Garden and Flower Show 2023
+
+          <div class="hidden md:block border-b-2 border-[#ec5242] w-[60px] pt-4 mx-auto lg:pt-8"></div>
+        </h1>
+
+        <p class="text-lg border-2 border-zinc-500 bg-stone-100 p-4 mb-4 md:hidden">
+          Visit us to experience different gardening styles from all over the World and get a smell of these rare flower designs.
+        </p>
+
+        <p class=" hidden md:block text-lg border-2 border-zinc-500 bg-stone-100 p-4 mb-4 lg:w-[95%] md:mx-auto">
+          Visit us to experience different gardening styles from all over the World and get a smell of these rare flower designs.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates vitae, hic, porro, fugiat quam dicta rerum veritatis excepturi optio repellat ipsam? Possimus dolor iure debitis nemo provident odit fuga quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia fugit recusandae nobis nulla dolores non beatae? Esse consequatur facere officiis, dolorum fugiat praesentium aspernatur mollitia reprehenderit deserunt qui quis enim?
+          Assumenda, debitis rem. Obcaecati pariatur consectetur cupiditate enim reprehenderit odio, voluptates eligendi sapiente magnam laborum eos impedit, dolore nisi quia! Amet sit architecto repellendus obcaecati perspiciatis, aliquam dolorem consequatur veniam!
+        </p>
+
+        <p class="text-lg font-bold px-10 py-4 text-center">
+          Please contact us via Email if you any further questions about Garden and Flower Show 2023!
+        </p>
+
+        <a href="mailto:gardenandflower2023@garden.com" class="underline font-bold text-lg hover:text-emerald-700  text-center block">
+          gardenandflower2023@garden.com
+
+          <i class="fa-solid fa-angle-right pl-2 fa-sm"></i>
+        </a>
+      </section>
+
+      <!-- Chosen Design Section -->
+
+      <section class="px-4 py-8 text-center">
+        <h3 class="text-3xl font-bold text-center mb-6">
+          Flower and Garden Show 2023 - Design Theme
+
+          <div class="border-b-2 border-[#ec5242] w-[60px] pt-4 mx-auto"></div>
+        </h3>
+
+        <p class="text-lg font-bold text-emerald-700 pb-6">
+          This year's theme is : 'Rose petal'.
+        </p>
+
+        <img src="./images/rose.jpg" alt="Rose petal" class="border-2 mx-auto object-contain md:w-[50%] lg:w-[30%] mb-4">
+      </section>
+
+      <hr>
+
+      <!-- Past Shows Section -->
+
+      <section class="px-4 py-10 text-center">
+        <h3 class="text-3xl font-bold text-center mb-6">
+          See the Past Flower and Garden Shows
+
+          <div class="border-b-2 border-[#ec5242] w-[60px] pt-4 mx-auto"></div>
+        </h3>
+
+        <p class="text-lg font-bold text-emerald-700 pb-6">
+          Take a look at the last couple of shows from previous years.
+        </p>
+
+        <div class="md:flex md:place-content-center md:gap-10 md:mb-[60px]">
+          <div class="bg-hydrangea-image bg-center bg-no-repeat bg-cover bg-blend-overlay bg-[#ec5242] h-[250px] text-stone-100 flex flex-col place-content-center gap-4 mb-6 md:w-[400px] transition-all hover:scale-110">
+            <h3 class="text-4xl font-extrabold">
+              2022
+            </h3>
+  
+            <h4 class="text-xl font-bold">
+              Flower and Garden Show: Hydrangea
+            </h4>
+          </div>
+  
+          <div class="bg-clematis-image bg-center bg-no-repeat bg-cover bg-blend-overlay bg-[#ec5242] h-[250px] text-stone-100 flex flex-col place-content-center gap-4 mb-8 md:w-[400px] transition-all hover:scale-110">
+            <h3 class="text-4xl font-extrabold">
+              2022
+            </h3>
+  
+            <h4 class="text-xl font-bold">
+              Flower and Garden Show: Hydrangea
+            </h4>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <!-- Partner Section -->
+
+      <section class="px-4 py-[50px] text-[#d3d3d3] bg-[#272a31] md:px-[5%] lg:px-[15%]">
+        <h3 class="text-3xl font-bold text-center mb-6">
+          Partner
+
+          <div class="border-b-2 border-[#ec5242] w-[60px] pt-4 mx-auto"></div>
+        </h3>
+
+        <ul class="flex justify-center gap-4 flex-wrap grayscale">
+          <li><a href="https://google.com"><img src="./images/google.svg" alt="Google" width="120px"></a></li>
+          <li><a href="https://airbnb.com"><img src="./images/airbnb.svg" alt="Airbnb" width="120px"></a></li>
+          <li><a href="https://mozilla.com"><img src="./images/mozilla-1.svg" alt="Mozilla" width="120px"></a></li>
+          <li><a href="https://quora.com"><img src="./images/quora-black.svg" alt="Quora" width="120px"></a></li>
+        </ul>
+      </section>
+
+      <!-- Bottom  Footer -->
+
+      <section class="p-[50px] flex gap-10 place-content-center font-bold md:px-[15%] md:gap-[80px] md:bg-zinc-900 md:text-stone-100">
+        <a href="#home">
+          <img src="./images/flower-logo1.png" alt="Logo" width="120px" class="md:hidden">
+        </a>
+
+        <a href="#home">
+          <img src="./images/flower-logo2.png" alt="Logo" width="120px" class="hidden md:block w-[200px]">
+        </a>
+
+        <div class="md:self-center">
+          <div class="md:flex md:gap-4">
+            <h5 class="text-wrap text-center">
+              2023 &copy; Garden and Flower Show
+            </h5>
+  
+            <h5 class="text-center">
+              All rights reserved.
+            </h5>
+          </div>
+
+          <p class="hidden md:block">
+            This project is protected by the MIT License, which allows for free and open use, modification, and distribution of the software.
+          </p>
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>

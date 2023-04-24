@@ -52,7 +52,7 @@ const programContainer = document.getElementById('program-card');
 const createProgramCards = () => {
   programCard.map((programInfo) => {
     const createProgram = document.createElement('article');
-    const classes = ['grid', 'grid-cols-4', 'gap-2', 'bg-[#d3d3d3]/[0.25]', 'px-2', 'py-8', 'md:grid-rows-4', 'md:grid-cols-1', 'transition-all', 'hover:scale-105', 'cursor-pointer'];
+    const classes = ['grid', 'grid-cols-4', 'gap-2', 'bg-emerald-700/50', 'px-2', 'py-8', 'md:grid-rows-4', 'md:grid-cols-1', 'transition-all', 'hover:scale-105', 'cursor-pointer'];
     createProgram.classList.add(...classes);
 
     createProgram.innerHTML = `
@@ -149,7 +149,7 @@ const createGardenCards = () => {
           ${gardenInfo.title}
         </h4>
 
-        <h5 class="text-[#ec5242] font-bold italic lg:text-sm">
+        <h5 class="text-rose-700 font-bold italic lg:text-sm">
           ${gardenInfo.subtitle}
 
           <div class="border-b-2 border-zinc-300 w-[30px] pt-4 lg:pt-2"></div>

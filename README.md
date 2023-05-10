@@ -29,7 +29,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Project Name] <a name="about-project"></a>
+# 📖 Garden and Flower Show <a name="about-project"></a>
 
 This is my Microverse **Garden and Flower Show** site, created with HTML, Tailwind CSS, Javascript and mobile first approach.
 

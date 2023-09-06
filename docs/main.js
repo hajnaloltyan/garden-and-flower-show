@@ -134,21 +134,20 @@ const gardenContainer = document.getElementById('garden-card');
 const createGardenCards = () => {
   gardenCard.map((gardenInfo) => {
     const createGarden = document.createElement('article');
-    const classes = ['flex', 'gap-4', 'garden'];
-    createGarden.classList.add(...classes);
+    createGarden.classList.add('garden', 'flex', 'flex-col', 'align-center');
 
     createGarden.innerHTML = `
+      <h4 class="text-2xl font-extrabold lg:text-xl text-center">
+        ${gardenInfo.title}
+      </h4>
+
       <img 
         src="./images/garden_${gardenInfo.id}.jpg" 
         alt="Garden"
-        class="w-[150px] h-[150px] lg:h-[100px] lg:w-[100px] object-cover self-center transition-all hover:scale-110"
+        class="py-8 self-center transition-all hover:scale-110"
       >
 
       <div class="flex flex-col gap-2">
-        <h4 class="text-2xl font-extrabold lg:text-xl">
-          ${gardenInfo.title}
-        </h4>
-
         <h5 class="text-rose-700 font-bold italic lg:text-sm">
           ${gardenInfo.subtitle}
 

@@ -148,13 +148,13 @@ const createGardenCards = () => {
       >
 
       <div class="flex flex-col gap-2">
-        <h5 class="text-rose-700 font-bold italic lg:text-sm">
+        <h5 class="text-rose-700 font-bold italic">
           ${gardenInfo.subtitle}
 
           <div class="border-b-2 border-zinc-300 w-[30px] pt-4 lg:pt-2"></div>
         </h5>
 
-        <p class="text-sm lg:text-xs">
+        <p>
           ${gardenInfo.description}
         </p>
       </div>

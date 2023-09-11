@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <img src="./docs/images/hajnaloltyan.png" alt="logo" width="140"  height="auto" />
+  <img src="./docs/images/hajnalkaoltyan.png" alt="logo" width="140"  height="auto" />
 </div>
 
 <!-- TABLE OF CONTENTS -->
